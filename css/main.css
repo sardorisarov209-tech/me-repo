@@ -101,36 +101,35 @@ img {
 }
 
 /* Statistics section */
-.statistics{
+.statistics {
   padding-top: 100px;
 }
 .statistics__item {
   display: inline-block;
   width: 150px;
   background-color: #f8faff;
-  padding: 5px 10px;text-align: center;
+  padding: 5px 10px;
+  text-align: center;
   margin-right: 20px;
 }
 
-.statistics__number{
-    font-size: 27px;
-    margin-bottom: 5px;
-    color: #1c44e4;
+.statistics__number {
+  font-size: 27px;
+  margin-bottom: 5px;
+  color: #1c44e4;
 }
-.statistics_title{
-    font-size: 16px;
-    color: #797979;
+.statistics_title {
+  font-size: 16px;
+  color: #797979;
 }
-.main-section__social-link{
-    color: #05364e;
-    font-size: 20px;
-    margin-right: 15px;
+
+.main-section__social-networks a:hover{
+  color: #1c44e4;
 }
-.main-section__social-link:hover{
-    color: #1c44e4;
-    cursor: pointer;
-}
-.main-section__action:hover{
-    background: linear-gradient(45deg, #1c44e4, pink);
-    
+.main-section__social-networks a{
+  color: #8fa1aa;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 16px;
+  cursor: pointer;
 }
