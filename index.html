@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/main.css" />
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
   </head>
@@ -57,23 +63,33 @@
             <a href="#" class="main-section__social-link"
               ><i class="fa-brands fa-facebook-f"></i
             ></a>
-            <a href="https://www.instagram.com/isarovah" class="main-section__social-link"
+            <a
+              href="https://www.instagram.com/isarovah"
+              class="main-section__social-link"
               ><i class="fa-brands fa-instagram"></i
             ></a>
-            <a href="https://github.com/sardorisarov209-tech" class="main-section__social-link"
+            <a
+              href="https://github.com/sardorisarov209-tech"
+              class="main-section__social-link"
               ><i class="fa-brands fa-github"></i
             ></a>
-                <a href="https://t.me/rasul_ov2012" class="main-section__social-link">
+            <a
+              href="https://t.me/rasul_ov2012"
+              class="main-section__social-link"
+            >
               <i class="fa-brands fa-telegram"></i>
-                </a>
-                <a href="https://fontawesome.com/account/general" class="main-section__social-link">
-                  <i class="fa-solid fa-font-awesome"></i>
-                </a>
-                <a href="#" class="main-section__social-link">
+            </a>
+            <a
+              href="https://fontawesome.com/account/general"
+              class="main-section__social-link"
+            >
+              <i class="fa-solid fa-font-awesome"></i>
+            </a>
+            <a href="#" class="main-section__social-link">
               <i class="fa-brands fa-youtube"></i>
-                </a>
+            </a>
           </div>
-          <button type="button" class="main-section__action to-uppercase">
+          <button type="button" class="button main-section__action to-uppercase">
             Ishlarimni ko'ring
           </button>
         </div>
@@ -100,16 +116,51 @@
           <p class="statistics_title">O'rtacha ball</p>
         </div>
       </section>
-      
     </div>
     <!--About section  -->
-    <section id="about-me">
-      <h1>Men haqimda</h1>
+    <div class="container">
+      <section id="about-me">
+      <div class="about-me__image">
+        <img src="./images/me.png" alt="About me image" />
+      </div>
+      <div class="about-me__info">
+        <h5 class="section-subtitle">
+        Men haqimda
+        <span class="blur-line"></span>
+        </h5>
+        <h3 class="section-title">
+        Senior (katta) dasturchi
+        </h3>
+        <p class="about-me__description">
+        Mening ismim Ulugbek va men 23 yoshdaman. 5 yildan ortiq vaqt mobaynida dasturchi bo'lib ishlab
+        </p>
+        <button type="button" class="button to-uppercase about-me__action">
+        CV ko'chirib olish
+        </button>
     </section>
+        <div class="clearfix"></div>
+    </div>
     <!-- /About section -->
     <!--Services section  -->
     <section id="services">
-      <h1>Mening xizmatlarim</h1>
+      <h5 class="section-subtitle">
+          Mening xizmatlarim
+          <span class="blur-line"></span>
+      </h5>
+      <h2 class="section-title">
+          Men taklif <br>
+          qiladigan xizmatlar
+      </h2>
+        <div class="services__cards">
+          <div class="service-card">
+            <img class="service-card__icon" src="./images/service-1.png" alt="Service 1">
+              <h5 class="service-card__title">Veb dasturlash</h5>
+            <p class="service-card__description">
+                Savollaringizga to'liq javoblar va birinchi veb saytingizni yaratish uchun kerak bo'ladiga
+            </p>
+          <a href="#" class="service-card__link">Ko'proq</a>
+          </div>
+        </div>
     </section>
     <!-- /Services section -->
     <!--Client section  -->
