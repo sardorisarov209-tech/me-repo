@@ -213,3 +213,16 @@ img {
   font-weight: 300;
   color: #797979;
 }
+
+.service-card_icon {
+  font-size: 40px;
+  color: #1c44e4;
+  margin-bottom: 20px;
+}
+.service-card_icon:hover {
+  color: #efb6cf;
+}
+.service-card:last-child {
+  margin-right: 0;
+}
+/* Footer styles */
