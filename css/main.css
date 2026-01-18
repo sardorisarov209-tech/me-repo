@@ -134,12 +134,10 @@ img {
 #about-me > div {
   width: 50%;
   float: left;
-  text-align: center;
 }
 
 .about-me__image img {
   width: 90%;
-  text-align: center;
 }
 .section-subtitle {
   letter-spacing: 2px;
